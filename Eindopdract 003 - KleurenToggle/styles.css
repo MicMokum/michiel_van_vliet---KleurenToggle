@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+body {
+  background-color: lightgray;
+  transition: 1.5s;
+}
+
+.bg-changer {
+  width: 200px;
+  padding-bottom: 1px;
+}
+.bg-changer__color-name {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.bg-changer__hamburger {
+  width: 50px;
+  cursor: pointer;
+}
+.bg-changer__menu {
+  background-color: lightgray;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+.bg-changer__menu--hidden {
+  max-height: 0;
+}
+.bg-changer__menu--exposed {
+  padding: 1px;
+  max-height: 300px;
+}
+.bg-changer__item {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 10px;
+}
+.bg-changer__item--lightgray {
+  background-color: lightgray;
+}
+.bg-changer__item--red {
+  background-color: red;
+}
+.bg-changer__item--orange {
+  background-color: orange;
+}
+.bg-changer__item--yellow {
+  background-color: yellow;
+}
+.bg-changer__item--green {
+  background-color: green;
+}
+.bg-changer__item--blue {
+  background-color: blue;
+}
+.bg-changer__item--purple {
+  background-color: purple;
+}
+.bg-changer__radio {
+  margin-right: 10px;
+}/*# sourceMappingURL=styles.css.map */

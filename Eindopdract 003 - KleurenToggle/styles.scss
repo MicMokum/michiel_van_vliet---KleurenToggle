@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+body {
+  background-color: lightgray;
+  transition: 1.5s;
+}
+
+.bg-changer {
+  width: 200px;
+  padding-bottom: 1px;
+
+  &__color-name {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  &__hamburger {
+    width: 50px;
+    cursor: pointer;
+  }
+
+  &__menu {
+    background-color: lightgray;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+
+    &--hidden {
+      max-height: 0;
+    }
+
+    &--exposed {
+      padding: 1px;
+      max-height: 300px;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    &--lightgray {
+      background-color: lightgray;
+    }
+    &--red {
+      background-color: red;
+    }
+    &--orange {
+      background-color: orange;
+    }
+    &--yellow {
+      background-color: yellow;
+    }
+    &--green {
+      background-color: green;
+    }
+    &--blue {
+      background-color: blue;
+    }
+    &--purple {
+      background-color: purple;
+    }
+  }
+
+  &__radio {
+    margin-right: 10px;
+  }
+}
